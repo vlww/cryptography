@@ -1,16 +1,16 @@
 import math
+
 jit = input("Enter the encrypted message: ")
-numbers_to_lock_in = jit.split(" ")
-for number in numbers_to_lock_in:
-    if not number.isnumeric():
-        if number == "|":
-            print(" ", end="")
-        else:
-            print(number, end="")
-    else:
+tokens = jit.split(" ")
+
+for token in tokens:
+    if token == "|":
+        print(" ", end="")
+    elif all(char in "01" for char in token):  # Check if it's a binary number
         decimal = 0
-        for i in range(len(number)):
-            gurt = math.pow(2, i)
-            decimal += gurt*int(number[len(number)-i-1])
+        for i in range(len(token)):
+            decimal += math.pow(2, i) * int(token[len(token) - i - 1])
         print(chr(int(decimal) + 64), end="")
+    else:
+        print(token, end="")
 print()
