@@ -18,4 +18,6 @@ for number in numbers_to_lock_in:
         26: "Z"
     }
 
-    print(key[int(decimal)], " ")
+    print(key[int(decimal)], end="")
+
+print()
