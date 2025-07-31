@@ -1,0 +1,2 @@
+# encoded text:
+# g||attecbeuush|trpoksehal||rde2go|k|ecpon|s|vfr,0bdu,e|bwelal|s||pojclsoler|rcseiheere|d|tl5go|f5|up,flhen,chce|l||r|m|g5sh|knooaapeooay!|play|c,rsec||asimbs0|ub,0gno|iyodi|rel|gi1gecb1g|pom,dtflnerdbts|h|etose|e||ifi'wsea:0gne||rdr1n|p|o1udooac0|ars|,t|li||s|tdp.
